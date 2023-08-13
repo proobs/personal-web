@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 1422 800" id="oooscillate">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="oooscillate-grad">
+            <stop stop-color="hsl(162, 100%, 58%)" stop-opacity="1" offset="0%"></stop>
+            <stop stop-color="hsl(270, 73%, 53%)" stop-opacity="1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke-width="6" stroke="url(#oooscillate-grad)" fill="none" stroke-linecap="round">
+        <path d="M 0 399 Q 355.5 -100 711 400 Q 1066.5 900 1422 399" opacity="0.63"></path>
+        <path d="M 0 380 Q 355.5 -100 711 400 Q 1066.5 900 1422 380" opacity="0.38"></path>
+        <path d="M 0 361 Q 355.5 -100 711 400 Q 1066.5 900 1422 361" opacity="0.70"></path>
+        <path d="M 0 342 Q 355.5 -100 711 400 Q 1066.5 900 1422 342" opacity="0.23"></path>
+        <path d="M 0 323 Q 355.5 -100 711 400 Q 1066.5 900 1422 323" opacity="0.94"></path>
+        <path d="M 0 304 Q 355.5 -100 711 400 Q 1066.5 900 1422 304" opacity="0.64"></path>
+        <path d="M 0 285 Q 355.5 -100 711 400 Q 1066.5 900 1422 285" opacity="0.71"></path>
+        <path d="M 0 266 Q 355.5 -100 711 400 Q 1066.5 900 1422 266" opacity="0.45"></path>
+        <path d="M 0 247 Q 355.5 -100 711 400 Q 1066.5 900 1422 247" opacity="0.63"></path>
+        <path d="M 0 228 Q 355.5 -100 711 400 Q 1066.5 900 1422 228" opacity="0.09"></path>
+        <path d="M 0 209 Q 355.5 -100 711 400 Q 1066.5 900 1422 209" opacity="0.89"></path>
+        <path d="M 0 190 Q 355.5 -100 711 400 Q 1066.5 900 1422 190" opacity="0.87"></path>
+        <path d="M 0 171 Q 355.5 -100 711 400 Q 1066.5 900 1422 171" opacity="0.42"></path>
+        <path d="M 0 152 Q 355.5 -100 711 400 Q 1066.5 900 1422 152" opacity="0.73"></path>
+        <path d="M 0 133 Q 355.5 -100 711 400 Q 1066.5 900 1422 133" opacity="0.08"></path>
+        <path d="M 0 114 Q 355.5 -100 711 400 Q 1066.5 900 1422 114" opacity="0.85"></path>
+        <path d="M 0 95 Q 355.5 -100 711 400 Q 1066.5 900 1422 95" opacity="0.50"></path>
+        <path d="M 0 76 Q 355.5 -100 711 400 Q 1066.5 900 1422 76" opacity="0.52"></path>
+        <path d="M 0 57 Q 355.5 -100 711 400 Q 1066.5 900 1422 57" opacity="0.12"></path>
+        <path d="M 0 38 Q 355.5 -100 711 400 Q 1066.5 900 1422 38" opacity="0.23"></path>
+    </g>
+</svg>

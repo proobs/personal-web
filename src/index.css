@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assests/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+#Home {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.home-right {
+    margin-top: 35vh;
+    margin-left: 10vh;
+    margin-bottom: 40vh;
+    padding: 30px;
+}
+
+.home-left{
+    margin-left: 35vh;
+}
+.home-languages{
+
+}
+
+.home-right:hover{
+    background: rgba( 156, 156, 210, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 12px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#About{
+    height: 40vh;
+    width: 80%;
+    background: rgba( 156, 156, 210, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 12px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+@media (max-width: 768px) {
+
+}
