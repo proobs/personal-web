@@ -18,7 +18,7 @@ body {
   }
 
 #Home {
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: row;
 }
@@ -30,14 +30,10 @@ body {
 }
 
 .home-left{
-    margin-left: 35vh;
-}
-.home-languages{
-
+    margin-left: 40px;
 }
 
 .home-right:hover{
-    background: rgba( 156, 156, 210, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
@@ -46,16 +42,44 @@ body {
 }
 
 #About{
-    height: 40vh;
-    width: 80%;
-    background: rgba( 156, 156, 210, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    min-height: 80vh;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
     border-radius: 12px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.githublink{
+    margin-left: 15px;
+}
+#Contact{
+    height: 120vh;
 }
 
-@media (max-width: 768px) {
+.card-container {
+    display: flex;
+    justify-content: space-between; /* This will distribute the cards evenly */
+    flex-wrap: wrap; /* Wrap cards onto the next line if they don't fit */
+    gap: 20px; /* Add some spacing between cards */
+  }
 
+@media (max-width: 1280px) {
+    #Home {
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+    .home-right {
+        display: none;
+    }
+    
+    .home-left{
+        margin-left: 0vh;
+    }
+    .home-right:hover{
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 12px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
 }

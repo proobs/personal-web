@@ -12,7 +12,7 @@ export default function NavbarMain() {
     window.addEventListener("resize", updateWidth);
   });
 
-  const collapseItems = ["Home", "About", "Projects", "Contact", "Resume"];
+  const collapseItems = ["Home", "About", "Contact", "Resume"];
 
   if (width > 1000) {
     return (
@@ -22,8 +22,7 @@ export default function NavbarMain() {
           <Navbar.Brand></Navbar.Brand>
           <Navbar.Content hideIn="xs" variant="highlight-rounded">
             <Navbar.Link href="#Home">Home</Navbar.Link>
-            <Navbar.Link href="#About">About</Navbar.Link>
-            <Navbar.Link href="#Projects">Projects</Navbar.Link>
+            <Navbar.Link href="#About">Projects</Navbar.Link>
             <Navbar.Link href="#Contact">Contact</Navbar.Link>
             <Navbar.Link href="#">Resume</Navbar.Link>
           </Navbar.Content>
